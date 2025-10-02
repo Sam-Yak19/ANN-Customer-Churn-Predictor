@@ -123,22 +123,6 @@ customer-churn-prediction/
 ├── onehot_encoder.pkl              # Geography encoder
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # Project documentation
-│
-├── notebooks/                      # Jupyter notebooks
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_preprocessing.ipynb
-│   ├── 03_model_training.ipynb
-│   └── 04_model_evaluation.ipynb
-│
-├── data/                           # Dataset
-│   ├── raw/
-│   │   └── customer_data.csv
-│   └── processed/
-│       └── processed_data.csv
-│
-├── models/                         # Model checkpoints
-│   └── checkpoints/
-│
 └── logs/                           # TensorBoard logs
     └── fit/
 ```
